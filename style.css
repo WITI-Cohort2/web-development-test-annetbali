@@ -1,0 +1,22 @@
+#{
+    margin: 0px;
+    height: 0px;
+    
+}
+h1{
+    margin-left: 50px;
+    padding: 20px;
+    text-align: left;
+}
+form{
+    margin-left: 30px;
+    padding: 20px 40px;
+    text-align: left;
+    height: 200px;
+    width: 100px;
+}
+
+footer{
+    margin-top: 500px;
+}
+

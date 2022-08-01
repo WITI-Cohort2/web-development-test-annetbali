@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulago Hospital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>SURVEY FORM</h1>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="first name" placeholder="Enter patient's first name"><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="last name" placeholder="Enter patient's last name"><br>
+        <label for="email">Email address:</label>
+        <input type="text" id="email" name="email address"><br>
+        <label for="number">Phone Number:</label>
+        <input type="text" id="number" name="phone number"><br>
+        <label for="place">Place of residence:</label>
+        <input type="text" id="place" name="place of residence" value="District"><br>
+        <selection>
+            <label for="button">Gender:</label>
+            <input type="radio" id="button" name="male"><label for="gender">Male</label>
+            <input type="radio" id="button" name="female"><label for="gender">Female</label><br>
+            <label for="button">Age:</label>
+            <input type="radio" id="age" name="range"><label for="age">0 - 10</label>
+            <input type="radio" id="age" name="range"><label for="age">11 - 20</label>
+            <input type="radio" id="age" name="range"><label for="age">21 - 30</label>
+            <input type="radio" id="age" name="range"><label for="age">31 - 40</label>
+            <input type="radio" id="age" name="range"><label for="age">41 - 50</label>
+        </selection>
+        <br>
+        <label for="comment">Comments about the patient</label>
+        <input type="checkbox" id="comment" name="comments on patient" placeholder="Write something"><br>
+        <input type="button" id="submit" placeholder="SUBMIT">
+    </form>
+    <footer>Terms and conditions</footer>
+</body>
+</html>
